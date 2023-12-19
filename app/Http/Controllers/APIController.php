@@ -33,7 +33,7 @@ class APIController extends Controller
             // Pass the extracted data to the view
             return view('welcome', compact('name', 'gender', 'dob', 'email', 'phone', 'nat', 'username', 'address', 'picture'));
         }
-        // Handle the case when the request fails
+        // Handle the case when the request fails hallo test    
         return view('error');
     }
 }
